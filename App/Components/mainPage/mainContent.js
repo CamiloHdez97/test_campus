@@ -6,7 +6,7 @@ export class MainContent extends HTMLElement{
       connectedCallback() {
         this.shadowRoot.innerHTML = /* html */`
           <style rel="stylesheet">
-              @import "mainStyle.css";
+              @import "./App/Components/mainPage/mainStyle.css";
           </style>
             <div class="first-message">
                 <h1>Bienvenid@ Camper</h1>
