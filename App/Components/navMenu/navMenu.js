@@ -11,7 +11,7 @@ export class NavMenu extends HTMLElement{
             <nav>
                 <div class="nav-container">
 
-                    <img src="img/whatsapp.svg">
+                    <img id="logo" src="img/logoWhite.png" alt="">
                     <ul class="links-container">               
                         <li class="link-item"><a class="mainMenu" href="#" data-verocultar='["i"]'>Inicio</a></li>
                         <li class="link-item"><a class="mainMenu" href="#" data-verocultar='["s"]'>Servicios</a></li>
