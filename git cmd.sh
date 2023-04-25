@@ -12,7 +12,9 @@ git commit -m "Mensaje" -> Apply Commit
 git commit --amend -> edit commit
 git reset --soft HEAD~1 -> Deshacer el ultimo commit, conserva los cambios en el editor.
 git reset --hard HEAD~1 -> Deshacer el ultimo commit, restaura los cambios en el editor.
-
+git remote -v -> Ver repositorios remotos
+nano ~/.gitconfig
+git push origin main -> hacer push en password colocamos el token.
 
 git log -> Info
 git push main -> 
